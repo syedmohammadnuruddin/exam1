@@ -1,0 +1,11 @@
+#posts{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+}
+.post{
+    color: bisque;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
