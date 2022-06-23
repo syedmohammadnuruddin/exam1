@@ -13,8 +13,7 @@ function displayPost(posts){
         singlePost.innerHTML = `
             <h3> ${post.name.common}</h3>
             <h3> ${post.population}</h3>
-            
-            
+            <h3> Flag :<img src="${post.flags.svg}" /> </h3>
         `;
         postsContainer.appendChild(singlePost);
     }

@@ -9,3 +9,7 @@
     padding: 10px;
     border-radius: 5px;
 }
+.post img{
+    width: 250px;
+    height: 180px;
+}
